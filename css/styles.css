@@ -1,0 +1,40 @@
+/* CSS Document */
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif; */
+body {background-image:url(../images/darrenbackground.jpg) ;
+			background-repeat:repeat;
+}
+
+
+h1, h2, h3 	{ font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif;}
+
+
+
+#wrapper  {width:900px;height:3000px; margin:10px auto;
+				background-color:#fff; padding:0 40px; }
+
+#top {}
+#logo {float:left; margin:40px 0;}
+#social-media {float:right; margin: 50px 0;}
+#social-media ul li { display:inline;
+						list-style-type:none;  }
+#social-media p {text-align:right; }
+
+#topnav {clear:both;}
+#topnav ul			{padding:0; margin:0;
+							border-top:1px #000 dotted; }
+#topnav ul li { display:inline; list-style-type:none;
+					margin:0 40px 0 0;}
+
+#content					{float:left; width:580px; }
+
+#box1 				{width:265px; float:left; margin-right:40px; }
+#box2				{width:265px; float:left; }
+
+.img-right			{float:right; padding:0 0 20px 10px; }
+
+#rightside					 {float:right; width:270px;  }
+
+#footer						{clear:both; padding:20px 0;
+								border-top:1px #000 dotted;} 
