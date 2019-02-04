@@ -4,6 +4,7 @@
 font-family: 'Open Sans Condensed', sans-serif; */
 body {background-image:url(../images/darrenbackground.jpg) ;
 			background-repeat:repeat;
+			font-family:Arial, Arial, Helvetica, sans-serif;
 }
 
 
@@ -26,15 +27,27 @@ h1, h2, h3 	{ font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif;}
 							border-top:1px #000 dotted; }
 #topnav ul li { display:inline; list-style-type:none;
 					margin:0 40px 0 0;}
+#topnav a:link        {font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000;}
+#topnav a:visited    {font-weight:bold; text-decoration:none;	text-transform:uppercase; color:#000;}
+#topnav a:active    {font-weight:bold; text-decoration:none;text-transform:uppercase; color:#000;	}
+#topnav a:hover    {font-weight:bold; text-decoration:none;	text-transform:uppercase; color:#A85400;}
+#topnav a:focus    {font-weight:bold; text-decoration:none;text-transform:uppercase; color:#A85400;	}
 
 #content					{float:left; width:580px; }
-
+#content h2					{color:#A85400; }
+#content p				{ font-size: 12px; line-height:180%; }
+	
 #box1 				{width:265px; float:left; margin-right:40px; }
 #box2				{width:265px; float:left; }
 
 .img-right			{float:right; padding:0 0 20px 10px; }
 
 #rightside					 {float:right; width:270px;  }
+#rightside h2					{color:#A85400; }
+#rightside p					{ font-size: 12px; line-height:180%; }
+#rightside li 				{ font-size: 12px; line-height:180%; }
 
 #footer						{clear:both; padding:20px 0;
 								border-top:1px #000 dotted;} 
+								
+#footer 					{text-align:center; font-size:14px; font-weight:bold; }
